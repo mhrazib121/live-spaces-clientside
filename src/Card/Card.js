@@ -4,7 +4,7 @@ import './Card.css'
 const Card = (props) => {
     const { _id, img, tittle, subTittle, description } = props.data;
     return (
-        <div data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="900" data-aos-easing="ease-in-sine">
+        <div data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="600" data-aos-easing="ease-in-sine">
             <div className='shadow-2xl m-3 card-design '>
                 <div className=''>
                     <img className='w-full h-60' src={img} alt="" />
